@@ -1,28 +1,26 @@
-# thoughtforge-client
-Examples for ThoughtForge AI Client SDK
+# thoughtforge-examples
+This reposistory contains simple examples for using the ThoughtForge AI Client SDK, which can be installed with 'pip3 install thoughtforge_client').
 
-
-## Installation instructions:
+## Examples Installation instructions:
 
 0. Set up account at tf-api.com, and get an API key
 
-1. pip3 install thoughtforge_client
+1. Clone this repo: `git clone git@github.com:thoughtforge-ai/thoughtforge-examples.git thoughtforge_examples`
 
-2. set THOUGHTFORGE_API_KEY environment variable to your API key
+2. cd thoughtforge_examples
 
-3. set environment variables
+3. pip install -r requirements.txt
 
-THOUGHTFORGE_HOST='core.tf-api.com'
+4. set environment variables
+- THOUGHTFORGE_API_KEY='YOUR_API_KEY
+- THOUGHTFORGE_HOST='core.tf-api.com'
+- THOUGHTFORGE_PORT=443
 
-THOUGHTFORGE_PORT=443
 
-(optionally, the client makes use of python-dotenv, and you can place your environment variables in a .env file)
-
-
-4. Try an example:
+5. Try an example:
 i.e. 'python3 ./examples/cartpole/example_cartpole_client.py'
 
 ## Documentation
 
 
-API documentation can be found at https://thoughtforge-api.readthedocs.io/
+thoughtforge_client API documentation can be found at https://thoughtforge-api.readthedocs.io/
