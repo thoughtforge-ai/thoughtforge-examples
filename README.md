@@ -1,5 +1,5 @@
 # thoughtforge-examples
-This reposistory contains simple examples for using the ThoughtForge AI Client SDK, which can be installed with 'pip3 install thoughtforge_client').
+This reposistory contains simple examples for using the ThoughtForge AI Client SDK, which can be installed with `pip3 install thoughtforge_client`).
 
 ## Examples Installation instructions:
 
